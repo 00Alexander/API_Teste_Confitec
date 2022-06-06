@@ -25,8 +25,7 @@ namespace ApiUsuario.Presentation.Api.Controllers.UpdateUser
             }
             catch (Exception e)
             {
-
-                return StatusCode(500, e.Message);
+                return new BadRequestObjectResult(e.Message);
             }
         }
     }

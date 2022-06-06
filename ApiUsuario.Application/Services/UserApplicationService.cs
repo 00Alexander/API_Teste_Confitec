@@ -41,7 +41,7 @@ namespace ApiUsuario.Application.Services
                     model.LastName,
                     model.Email,
                     model.BirthDate,
-                    model.Scholarity 
+                    model.Scholarity.ToUpper()
                 );
 
             userDomainService.Update(user, user);

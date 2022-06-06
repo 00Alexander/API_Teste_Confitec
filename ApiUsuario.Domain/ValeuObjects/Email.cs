@@ -15,7 +15,7 @@ namespace ApiUsuario.Domain.ValeuObjects
             Regex rgx = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
             if (!rgx.IsMatch(email))
             {
-                throw new Exception("Email inválido");
+                throw new ArgumentException("Por favor, informe um email válido.");
             }
 
             this._text = email;
