@@ -40,9 +40,9 @@ namespace ApiUsuario.Presentation.Api
                 s.SwaggerDoc("v1",
                     new OpenApiInfo
                     {
-                        Title = "API para controle de Usuários",
+                        Title = "API de Usuários",
                         Version = "v1",
-                        Description = "Projeto desenvolvido em NET CORE 3.1 API com EntityFramework e usando o padrão DDD (Domain Driven Design)",
+                        Description = "Projeto desenvolvido para avaliação",
                         Contact = new OpenApiContact
                         {
                             Name = "Alexander Oliveira C# WebDeveloper",
